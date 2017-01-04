@@ -15,7 +15,7 @@ You now you have everything you need to run the robot arm code. Download this re
 
     $ sudo chmod +x RoboticArm.py
 
-## Running the code 
+## Usage 
 
     $ sudo ./RoboticArm.py
 
