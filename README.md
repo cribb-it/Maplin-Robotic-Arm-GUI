@@ -1,1 +1,20 @@
-# Maplin-Robot-Arm-GUI
+# Maplin Robot Arm GUI for Linux
+## Installing on GNU/Linux Systems
+These instructions are for Debian-based systems. Instructions for other flavors of GNU/Linux should be similar.
+
+Install python and libusb:
+
+    $ sudo apt-get install python libusb-1.0-0
+
+Download the pyusb repositories https://github.com/walac/pyusb to intall unzip navigate to the folder and type:
+
+    $ sudo python setup.py install
+
+You now you have everything you need to run the robot arm code. Download this repositories navigate to the folder and make the file executable
+
+    $ sudo chmod +x RoboticArm.py
+
+## Running the code 
+
+    $ sudo ./RoboticArm.py
+
