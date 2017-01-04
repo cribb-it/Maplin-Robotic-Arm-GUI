@@ -184,7 +184,7 @@ class App:
     def sendCmd(self, ArmCmd):
         self.ticks = time.time()
         result = RobotArm.ctrl_transfer(0x40,6,0x100,0,ArmCmd,3)
-        self.setStatus(result)
+        #self.setStatus(result)
         #print('Send Cmd = ', ArmCmd)   
         
     def baseLeft(self, event):        
