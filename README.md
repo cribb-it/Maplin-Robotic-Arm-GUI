@@ -6,7 +6,7 @@ Install python and libusb:
 
     $ sudo apt-get install python libusb-1.0-0
 
-Download the pyusb repositories https://github.com/walac/pyusb to intall unzip navigate to the folder and type:
+Download the pyusb repositories https://github.com/walac/pyusb to install unzip navigate to the folder and type:
 
     $ sudo python setup.py install
 
