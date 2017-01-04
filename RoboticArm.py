@@ -373,8 +373,8 @@ root = Tk()
 #backend = usb.backend.libusb1.get_backend(find_library=lambda x: "C:\\PathToLib\\libusb-1.0.dll")
 
 # Allocate the name 'RobotArm' to the USB device
-#RobotArm = usb.core.find(idVendor=0x1267, idProduct=0x000)
-RobotArm = usb.core.find(idVendor=0x1267, idProduct=0x001)
+RobotArm = usb.core.find(idVendor=0x1267, idProduct=0x000)
+#RobotArm = usb.core.find(idVendor=0x1267, idProduct=0x001)
 
 #Check if the arm is detected and warn if not
 if RobotArm is None:
