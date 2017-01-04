@@ -1,4 +1,5 @@
 # Maplin Robot Arm GUI for Linux
+## Introduction
 ## Installing on GNU/Linux Systems
 These instructions are for Debian-based systems. Instructions for other flavors of GNU/Linux should be similar.
 
