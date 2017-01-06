@@ -1,4 +1,4 @@
-# Maplin Robot Arm GUI for Linux
+# Maplin Robotic Arm GUI for Linux
 ## Introduction
 This is a python script that connect to the Maplin (A37JN) \ Velleman KSR10 USB robotic arm and displays a simple GUI to control it.
 
